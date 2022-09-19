@@ -7,18 +7,22 @@
         <title>Portfólio Daniela R Espíndola</title>
         <link rel="shortcut icon" href="img/Imagem moça Pretalab.jpg">
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="next"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
+    
     <body>
         
-        <header>
+        <header class="header-menu">
             <nav>
-                <ul>
+                <ul class="lista-menu">
                     <li>
                         <a href="#formacao">Formação</a>
                     </li>
+                    
                     <li>
                         <a href="#projetos">Meus Projetos</a>
                     </li>
+
                     <li>
                         <a href="#contatos">Contatos</a>
                     </li>
@@ -26,76 +30,82 @@
             </nav>
         </header>
 
-        <main>
-            <section>
-                <div>   
+    <main>
+        <section class="principal">
+            <div class="subcontainer-principal container">
+                <div>
                     <img src="img/Imagem Pretalab.jpg">
                 </div>
-
-                <div>
-                    <h1>Daniela R Espíndola</h1>
-                    <h2>Professora conhecendo o mundo da tecnologia</h2>
+                
+                <div>   
+                    <h1 class="nome-completo">Daniela R Espíndola</h1>
+                    <h2 class="profissao">Professora conhecendo o mundo da Tecnologia  
                 </div>
 
-                <div>
-                    Professora de Anos Iniciais e Finais, formada em Letras- Português e Literaturas de Língua Portuguesa pela Universidade Federal do Rio Grande do Sul-UFRGS. Atuou no Magistério da rede estadual do Rio Grande do Sul.
-                    Atualmente, é professora da rede municipal de ensino de Porto Alegre, onde atua na Secretaria Municipal de Educação como coordenadora adjuntado setor de Tecnologia e Inovação. 
+                <div class="texto-sobre">
+                        Professora de Anos Iniciais e Finais, formada em Letras- Português e Literaturas de Língua Portuguesa pela Universidade Federal do Rio Grande do Sul-UFRGS. Atuou no Magistério da rede estadual do Rio Grande do Sul.
+                        Atualmente, é professora da rede municipal de ensino de Porto Alegre, onde atua na Secretaria Municipal de Educação como coordenadora adjunta do setor de Tecnologia e Inovação. 
                 </div>
-            </section>     
-            <section id="formacao">
+            </div>           
+        </section>     
+        
+        <section id="formacao">
+            <div class="container section-lista">
                 <div>
-                    Formação
+                    <h3 class="topico-principal">Formação</h3>
                 </div>
                 <div>
-                    <ul>
+                    <ul class="lista-item">
                        <li>
-                            <p>Ciclo Formativo Pretalab</p>
-                            <a href="https://www.pretalab.com/formacao" target="_blank">Pretalab/ Olabi</a>
-                            <p>
-                                Qualificação técnica gratuita para mulheres negras e indígenas de todo o Brasil. Uma metodologia baseada no conhecimento técnico, autogestão e autoconhecimento que já capacitou mais de 250 mulheres negras. </p>                                
+                            <p class="lista-titulo">Ciclo Formativo Pretalab</p>
+                            <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab/ Olabi</a>
+                            <p class="lista-descricao"> 
+                                Qualificação técnica gratuita para mulheres negras e indígenas de todo o Brasil. 
+                                Uma metodologia baseada no conhecimento técnico, autogestão e autoconhecimento que já capacitou mais de 250 mulheres negras. 
+                            </p>                                
                        </li> 
                        
                        <li>
-                        <p>Licenciatura em Letras- Portugês e Literaturas de Língua Portuguesa </p>
-                        <a href="https://www.ufrgs.br/letras/?page_id=98" target="_blank">Letras/UFRGS</a>
-                        <p>
-                           O Instituto de Letras foi criado em 01/09/1970 com o nome de Instituto Central de Letras, através da Portaria 716. A criação dos Departamentos ocorreu no ano seguinte, precisamente em 18/03/71, quando foram instalados os três Departamentos, com a seguinte denominação: Departamento de Letras Clássicas e Vernáculas, Departamento de Línguas Modernas e Departamento de Lingüística e Filologia.  </p>                                
+                        <p class="lista-titulo">Licenciatura em Letras- Português e Literaturas de Língua Portuguesa </p>
+                        <a href="https://www.ufrgs.br/letras/?page_id=98" target="_blank" class="lista-local">Letras/UFRGS</a>
+                        <p class="lista-descricao">
+                           O Instituto de Letras foi criado em 01/09/1970 com o nome de Instituto Central de Letras, através da Portaria 716. A criação dos Departamentos ocorreu no ano seguinte, precisamente em 18/03/71, quando foram instalados os três Departamentos, com a seguinte denominação: Departamento de Letras Clássicas e Vernáculas, Departamento de Línguas Modernas e Departamento de Linguística e Filologia.  </p>                                
                    </li> 
                        <li></li> 
                     </ul>
                 </div>
-            
-            
+            </div>
             
             
             </section> 
 
-            <section id="projetos">
-                <div>
-                    Meus projetos
-                </div>
-                <div>
-                    <ul>
-                       <li>
-                            <p>Calculadora</p>
-                            <a href="#" target="_blank">Calculadora em Javascript</a>
-                            <p>
-                               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum                                 
+            <section id="projetos" class="wrapper-portfolio"> 
+                <div class="container section-lista">
+                    <div>
+                        <h3 class="topico-principal">Meus projetos</h3>
+                    </div>
+                    <div class="lista-item">
+                        <ul>
+                        <li>
+                                <p class="lista-titulo">Calculadora</p>
+                                <a href="#" target="_blank" class="lista-local">Calculadora em Javascript</a>
+                                <p class="lista-descricao">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum                                 
+                                </p>    
+                                </li> 
+                        
+                        <li>
+                            <p class="lista-titulo">Projeto pessoal React</p>
+                            <a href="#" target="_blank" class="lista-local">Projeto de Eeact</a>
+                            <p class="lista-descricao">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum                                 
                             </p>    
                             </li> 
-                       
-                       <li>
-                        <p>Projeto pessoal React</p>
-                        <a href="#" target="_blank">Projeto de Eeact</a>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum                                 
-                        </p>    
-                        </li> 
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
-            
             </section>   
         </main>                    
             
